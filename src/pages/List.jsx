@@ -1,7 +1,7 @@
 import React from "react";
 
 const List = () => {
-  return <div>List</div>;
+  return <div>글 목록 페이지 입니다.</div>;
 };
 
 export default List;

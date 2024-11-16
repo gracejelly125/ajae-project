@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Mypage = () => {
-  return (
-    <div>Mypage</div>
-  )
-}
+  return <div>마이페이지 입니다.</div>;
+};
 
-export default Mypage
+export default Mypage;
