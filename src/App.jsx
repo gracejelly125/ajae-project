@@ -1,12 +1,12 @@
-import AjaeContextProvider from "./context/AjaeProvider";
+import GlobalProvider from "./context/GlobalProvider";
 import Router from "./shared/Router";
 
 const App = () => {
   return (
     <>
-      <AjaeContextProvider>
+      <GlobalProvider>
         <Router />
-      </AjaeContextProvider>
+      </GlobalProvider>
     </>
   );
 };
