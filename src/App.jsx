@@ -1,11 +1,14 @@
+import AjaeContextProvider from "./context/AjaeProvider";
 import Router from "./shared/Router";
 
 const App = () => {
   return (
     <>
-    <Router />
+      <AjaeContextProvider>
+        <Router />
+      </AjaeContextProvider>
     </>
-  )
+  );
 };
 
 export default App;
